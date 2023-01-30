@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:socialmediapracticeapp/Getconnect%20TutoriaL%20BY%20aBHI/binding.dart';
 import 'package:socialmediapracticeapp/Getconnect%20TutoriaL%20BY%20aBHI/views.dart';
-import 'package:socialmediapracticeapp/dummyjson_quotes_api/qoutesdata.dart';
-import 'package:socialmediapracticeapp/fakestore_product_api/makeupproductsdata.dart';
-import 'package:socialmediapracticeapp/imageconverter.dart';
+import 'package:socialmediapracticeapp/categorysubcategory/categorybinding.dart';
+import 'package:socialmediapracticeapp/categorysubcategory/categorydata.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,8 +19,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialBinding: Makeupclassbinding(),
-      home: Makeupdata()
+      initialBinding: Categorybinding(),
+      home: Categorydata()
       //home: const Makeupproductsdata(),
     );
   }
