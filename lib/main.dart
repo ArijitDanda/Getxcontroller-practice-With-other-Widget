@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:socialmediapracticeapp/EcomProductsDetails/ecombinding.dart';
+import 'package:socialmediapracticeapp/EcomProductsDetails/ecomview.dart';
 import 'package:socialmediapracticeapp/Getconnect%20TutoriaL%20BY%20aBHI/binding.dart';
 import 'package:socialmediapracticeapp/Getconnect%20TutoriaL%20BY%20aBHI/views.dart';
 import 'package:socialmediapracticeapp/categorysubcategory/categorybinding.dart';
@@ -19,8 +21,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialBinding: Categorybinding(),
-      home: Categorydata()
+      initialBinding: Ecombinding(),
+      home: Ecomdatashow()
       //home: const Makeupproductsdata(),
     );
   }
